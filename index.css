@@ -1589,6 +1589,14 @@ cursor: pointer;
     transition: all 0.2s ease-in;
 }
 }
+@media screen and (max-width:575px) {
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+}
 @media screen and (max-width:425px) {
    
     .img img{
