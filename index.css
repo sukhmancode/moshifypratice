@@ -1663,9 +1663,41 @@ cursor: pointer;
         width: 100vw;
         flex-direction: column;
     }
+    .card-area{
+        width: 182%;
+    }
+}
+@media screen and (max-width:450px) {
+    .graph{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .card-full{
+        margin-right: 3rem;
+    }
+    .black-section{
+        flex-direction: column;
+        height:250vh;
+    }
+    .customer-img-container{
+        flex-direction: column;
+        height:170vh;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .content h1{
+        font-size: 25px;
+    }
+    .card-area{
+        width: 182%;
+    }
+    
 }
 @media screen and (max-width:425px) {
-   
+    .card-area{
+        width: 182%;
+    }
     .img img{
         width:150px;
     }
