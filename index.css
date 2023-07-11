@@ -1111,7 +1111,21 @@ cursor: pointer;
     transition: all 0.2s ease-in;
 }
 }
-
+@media screen and (max-width:911px){
+    .nav{
+        min-width: 110%;
+    }
+    .card-container{
+       flex-direction: column;
+       width: 100vw;
+       align-items: center;
+       height:270vh;
+    }
+    .black-section{
+        width: 100vw;
+        height:180vh;
+    }
+}
 
 /* responsiveness for tablet*/
 @media screen and (max-width:768px) {
@@ -1125,6 +1139,10 @@ cursor: pointer;
     
     
     
+    }
+    .black-section{
+        height:160vh;
+        max-width: 100%;
     }
     .img img{
         margin-top: 1px;
@@ -1538,9 +1556,14 @@ cursor: pointer;
 
 
 }
+.blue-section{
+    flex-direction: column;
+    height:50vh
+}
 
 
 .blue-section p{
+    margin-bottom: 30px;
     font-size: 18px;
     line-height:27px;
     width: 400px;
@@ -1554,6 +1577,7 @@ cursor: pointer;
     min-height: 300px;
     z-index: -11111;
     display: flex;
+    flex-direction: column;
     gap:10px;
     position: relative;
    
@@ -1589,6 +1613,55 @@ cursor: pointer;
     transition: all 0.2s ease-in;
 }
 }
+@media screen and (max-width:603px){
+    .nav{
+        width: 180%;
+        overflow: hidden;
+    }
+   .card-area{
+        width: 182%;
+    }
+    .lorem{
+        width:300px
+    }
+    .input{
+        width: 500px;
+    }
+    .button{
+        top: -0.1rem;
+        
+    }
+    .button button{
+        
+        text-align: center;
+       font-size: 12px;
+        width: 155px;
+      
+    
+    }
+    .domain-price p:nth-child(1){
+        width:100px;
+        
+    }
+    .domain-price{
+
+        flex-direction: column;
+        width: 400px;
+        flex-wrap: wrap;
+        height:200px;
+    }
+    .graph{
+        flex-direction: column;
+    }
+    .black-section{
+        width: 250vw;
+        align-items: center;
+        flex-direction: column;
+        height: 250vh;
+    }
+
+}
+
 @media screen and (max-width:576px) {
     .img img{
         width:150px;
@@ -1659,6 +1732,7 @@ cursor: pointer;
       
     
     }
+
     .graph{
         width: 100vw;
         flex-direction: column;
