@@ -1125,6 +1125,15 @@ cursor: pointer;
         width: 100vw;
         height:180vh;
     }
+    .footer{
+        width:fit-content;
+    }
+    .black-section{
+        width:100%;
+        height:260vh;
+        flex-direction: column;
+        
+    }
 }
 
 /* responsiveness for tablet*/
@@ -1694,7 +1703,7 @@ cursor: pointer;
     
     .black-section{
         width: 150%;
-        height:200vh;
+        height:250vh;
     }
     .content h1{
         width: 100vw;
@@ -1739,6 +1748,13 @@ cursor: pointer;
     }
     .card-area{
         width: 182%;
+    }
+    .customer-img-container{
+        flex-direction: column;
+        height:fit-content
+    }
+    .blue-section{
+        height: fit-content;
     }
 }
 @media screen and (max-width:450px) {
