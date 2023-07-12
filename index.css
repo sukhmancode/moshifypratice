@@ -1151,6 +1151,9 @@ footer {
         flex-direction: column;
         
     }
+    .blue-section{
+    height:max-content;
+    }
 }
 
 /* responsiveness for tablet*/
@@ -1574,11 +1577,12 @@ footer {
  
     background-color: #2584ff;
     width: 768px;
-    height: fit-content;
+    height: max-content;
     margin:60px 0 -50px 0;
     border-radius: 5px;
     padding:40px 40px;
     display: flex;
+    flex-direction: row;
     z-index: 999;
 }
 .getbtn button{
@@ -1596,7 +1600,7 @@ footer {
 
 }
 .blue-section{
-    flex-direction: column;
+    flex-direction: row;
     height:50vh
 }
 
@@ -1719,10 +1723,24 @@ footer {
     .blue-section{
         height: fit-content;
     }
+    .customer-name{
+        transform: translate(-200px,30px);
+  
+    }
+    .op{
+        transform: translate(-200px,30px);
+  
+
+    }
 
 }
 
 @media screen and (max-width:576px) {
+    .op{
+        transform: translate(-70px,30px);
+  
+
+    }
     .nav{
         width: 180%;
         overflow: hidden;
