@@ -1844,7 +1844,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         
     }
     .button button{
-        transform: translateX(-20px);
+        transform: translateX(90px);
         
         text-align: center;
         background-color: #ff3400;
@@ -2451,13 +2451,14 @@ only screen and (min-device-pixel-ratio: 1.5){
             display: flex;
             flex-direction: column;
             margin-left: 40px;
+            transform: translateX(-100px);
          
            
            
         }
     
         .hosting-heading h1{
-            
+          
             color: #fff;
             font-size: 80px;
             width: 350px;
@@ -2541,7 +2542,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         line-height: 17.85px;
         border-radius: 36px;
         width: 135px;
-        height: 65px;
+        height: 60px;
         border: 0;
         color: #fff;
         text-transform: uppercase;
@@ -2550,6 +2551,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     
     }
     .lorem{
+        
         margin-left: -20rem;
         margin-top:10px;
         color:#918ca4;
@@ -2563,6 +2565,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         flex-direction: column;
         
         gap:25px;
+        height:200px;
         
         width:200px;
         flex-wrap: wrap;
