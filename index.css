@@ -1620,6 +1620,12 @@ cursor: pointer;
         width: 180%;
         overflow: hidden;
     }
+    .hosting-heading{
+        transform: translateX(-110px);
+    }
+    .hosting-heading h1{
+        text-align: left;
+    }
    .card-area{
         width: 182%;
     }
@@ -1816,23 +1822,10 @@ cursor: pointer;
     
     }
     .lorem{
-        margin-left: -20rem;
-        margin-top:10px;
-        color:#918ca4;
-        font-size: 18px;
-        line-height: 27px;
-    
+        transform: translateX(-120px);
     }
     .domain-price{
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        gap:25px;
-        margin-left:-90px;
-        width:400px;
-        flex-wrap: wrap;
-    
+        transform: translateX(-110px);
     }
     .domain-price p{
     
@@ -1958,6 +1951,7 @@ cursor: pointer;
         font-size: 35px;
     }
     .card-below{
+        transform: translateX(80px);
         text-align: center;
         margin-top: 109px;
         width:100vw;
@@ -2339,11 +2333,20 @@ cursor: pointer;
     input{
         width: 100vw;
     }
+    .lorem{
+        transform: translateX(-120px);
+    }
+    .domain-price{
+        transform: translateX(-110px);
+    }
     .card-below{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .card-full2{
+        transform:translateX(-30px) ;
     }
     
 }
