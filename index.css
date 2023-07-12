@@ -691,7 +691,19 @@ cursor: pointer;
     color:#fff;
     cursor: pointer;
 }
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
 
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
 @media screen and (max-width:1024px) {
   
     
@@ -1854,7 +1866,7 @@ cursor: pointer;
             padding:20px 40px;
             align-items: center;
             justify-content:center ;
-            transform: translateX(30%);
+            transform: translateX(-20px);
             
         
     
