@@ -1154,6 +1154,10 @@ only screen and (min-device-pixel-ratio: 1.5){
     
     
     }
+    .lorem{
+        transform: translateX(-110px);
+        width: 600px;
+    }
     .black-section{
         height:160vh;
         max-width: 100%;
@@ -1197,6 +1201,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     border:1px solid #ddd;
     outline: none;
     margin-left: -100px;
+    transform: translateX(-60px);
     
     
     }
@@ -1209,6 +1214,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         position: relative;
         right:10rem;
         top:-1rem;
+        transform: translateX(-50px);
     }
     .icon{
         position: relative;
@@ -1223,7 +1229,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         font-size: 15px;
         line-height: 17.85px;
         border-radius: 36px;
-        width: 175px;
+        width: 155px;
         height: 65px;
         border: 0;
         color: #fff;
@@ -1241,11 +1247,12 @@ only screen and (min-device-pixel-ratio: 1.5){
    
    }
     .domain-price{
+        transform: translateX(-50px);
         margin-top: 40px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        gap:25px;
+        gap:35px;
         margin-left:-90px;
         width:700px;
     
@@ -1458,6 +1465,12 @@ only screen and (min-device-pixel-ratio: 1.5){
     margin-left: 125px;
   
 }
+.black-section{
+    height: fit-content;
+}
+.ipad{
+    min-width: 100%;
+}
 .image-mosh img{
     width: 355px;
     height: 243px;
@@ -1549,7 +1562,7 @@ only screen and (min-device-pixel-ratio: 1.5){
  
     background-color: #2584ff;
     width: 768px;
-    height: 215px;
+    height: fit-content;
     margin:60px 0 -50px 0;
     border-radius: 5px;
     padding:40px 40px;
@@ -1633,7 +1646,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         overflow: hidden;
     }
     .hosting-heading{
-        transform: translateX(-110px);
+        transform: translateX(-90px);
     }
     .hosting-heading h1{
         text-align: left;
@@ -1641,21 +1654,27 @@ only screen and (min-device-pixel-ratio: 1.5){
    .card-area{
         width: 182%;
     }
+    .content h1{
+        transform: translateX(-50px);
+    }
     .lorem{
-        width:300px
+        width:500px;
+        transform: translateX(-150px);
     }
     .input{
         width: 500px;
+        transform: translateX(-110px);
     }
     .button{
-        top: -0.1rem;
+        top: 0.1rem;
+        transform: translateX(-110px);
         
     }
     .button button{
         
         text-align: center;
        font-size: 12px;
-        width: 155px;
+        width: 135px;
       
     
     }
@@ -1678,6 +1697,13 @@ only screen and (min-device-pixel-ratio: 1.5){
         align-items: center;
         flex-direction: column;
         height: 250vh;
+    }
+    .customer-img-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .blue-section{
+        height: fit-content;
     }
 
 }
@@ -1791,8 +1817,9 @@ only screen and (min-device-pixel-ratio: 1.5){
         display: flex;
     }
      .input{
+        transform: translateX(-20px);
         box-shadow:8px 8px 8px 8px #ddd;
-        width: 350px;
+        width: 450px;
         height: 70px;
         border-radius: 36px;
     border:1px solid #ddd;
@@ -1818,6 +1845,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         
     }
     .button button{
+        transform: translateX(-20px);
         
         text-align: center;
         background-color: #ff3400;
@@ -1825,7 +1853,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         line-height: 17.85px;
         border-radius: 36px;
         width: 135px;
-        height: 65px;
+        height: 58px;
         border: 0;
         color: #fff;
         text-transform: uppercase;
@@ -2534,10 +2562,10 @@ only screen and (min-device-pixel-ratio: 1.5){
         margin-top: 40px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        
         gap:25px;
-        margin-left:-90px;
-        width:400px;
+        
+        width:200px;
         flex-wrap: wrap;
     
     }
