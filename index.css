@@ -2318,6 +2318,15 @@ only screen and (min-device-pixel-ratio: 1.5){
     .nav{
         flex-direction: row;
     }
+    .hero-image{
+        transform:translateX(-130px);
+    }
+    .content h1{
+        transform: translateX(-100px);
+    }
+    .lorem {
+          transform: translateX(-200px);
+    }
     .graph{
         width: 100vw;
         flex-direction: column;
@@ -2349,8 +2358,8 @@ only screen and (min-device-pixel-ratio: 1.5){
     input{
         width: 100vw;
     }
-    .lorem{
-        transform: translateX(-120px);
+    .card-container{
+        transform: translateX(-40px);
     }
     .domain-price{
         transform: translateX(-110px);
@@ -2360,6 +2369,7 @@ only screen and (min-device-pixel-ratio: 1.5){
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        transform: translateX(10px);
     }
     .card-full2{
         transform:translateX(-30px) ;
