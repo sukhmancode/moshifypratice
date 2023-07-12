@@ -204,8 +204,8 @@ margin-left: 100px;
     font-size: 15px;
     line-height: 17.85px;
     border-radius: 36px;
-    width: 175px;
-    height: 65px;
+    width: 167px;
+    height: 63px;
     border: 0;
     color: #fff;
     text-transform: uppercase;
@@ -682,7 +682,6 @@ cursor: pointer;
 .footer-section1 p{
     color: #777777;
     font-size: 15px;
-    cursor: zoom-in;
     margin-bottom:4px;
    
 }
