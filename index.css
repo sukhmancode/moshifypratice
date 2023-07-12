@@ -88,6 +88,7 @@ p{
 
 }
 .hosting-heading{
+    
     display: flex;
     flex-direction: column;
     padding:100px 100px;  
@@ -134,8 +135,8 @@ p{
 .card-area{
     display:flex;
     min-height: 720px;
-    overflow: hidden;
-    margin-top:10px;
+    
+    margin-top:90px;
     background-color: #fff;
 }
 .search-container{
@@ -164,14 +165,6 @@ p{
     line-height: 27px;
     margin-left: 1rem;
    
-}
-.lorem{
-     margin-left: 10rem;
-     margin-top:10px;
-     color:#918ca4;
-     font-size: 18px;
-     line-height: 27px;
-
 }
 .input-box{
     margin-top: 40px;
@@ -2312,6 +2305,9 @@ cursor: pointer;
   
 
 @media screen and (max-width:450px) {
+    .nav{
+        flex-direction: row;
+    }
     .graph{
         width: 100vw;
         flex-direction: column;
@@ -2319,9 +2315,11 @@ cursor: pointer;
     .card-full{
         margin-right: 3rem;
     }
+    
     .black-section{
+        width:1000rem;
         flex-direction: column;
-        height:250vh;
+        height:350vh;
     }
     .customer-img-container{
         flex-direction: column;
@@ -2331,10 +2329,21 @@ cursor: pointer;
         flex-direction: column;
     }
     .content h1{
-        font-size: 25px;
+        width: 100vw;
+        font-size: 30px;
     }
     .card-area{
         width: 182%;
+    }
+    
+    input{
+        width: 100vw;
+    }
+    .card-below{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     
 }
@@ -2385,7 +2394,6 @@ cursor: pointer;
         .hosting-heading{
             display: flex;
             flex-direction: column;
-           
             margin-left: 40px;
          
            
