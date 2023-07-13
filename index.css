@@ -10,6 +10,9 @@ html{
 .flex{
     display:flex;
 }
+button{
+    cursor: pointer;
+}
 
 body{
     font-family: 'Inter',sans-serif;
@@ -41,6 +44,7 @@ p{
 
 
 .img{
+  
     position:absolute;
     inset:0;
     padding:-30px;
@@ -119,9 +123,12 @@ p{
     border: 0;
     color: #fff;
     text-transform: uppercase;
-    cursor: pointer;
     font-weight: 700;
     margin:30px 0 ;
+    transition: all 0.2s ease-in;
+}
+.getstart:hover{
+    background-color: orange;
 }
 .hero-image{
     width:50%;
@@ -1755,7 +1762,12 @@ footer {
     .img img{
         width:150px;
     }
-          
+    .hosting-heading p{
+        transform: translateX(30px);
+    }
+          .getstart{
+            transform:translateX(30px);
+          }
      
         .nav-items{
             display: flex;
@@ -1891,9 +1903,9 @@ footer {
         font-weight: 700;
     
     }
-    .lorem{
-        transform: translateX(-120px);
-    }
+    .lorem {
+        transform: translateX(-180px);
+  }
     .domain-price{
         transform: translateX(-110px);
     }
