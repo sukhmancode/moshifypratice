@@ -1684,6 +1684,7 @@ footer {
     font-size: 15px;
     margin-bottom:4px;
     transition: all 0.2s ease-in;
+    cursor: pointer;
 }
 }
 @media screen and (max-width:603px){
@@ -2406,6 +2407,7 @@ footer {
         font-size: 16px;
         margin-bottom:4px;
         transition: all 0.2s ease-in;
+        cursor: pointer;
     }
     
     }
@@ -2539,7 +2541,7 @@ footer {
             display: flex;
             flex-direction: column;
             margin-left: 40px;
-            transform: translateX(-150px);
+            
          
            
            
@@ -2690,16 +2692,16 @@ footer {
         .card-full{
             border:0.7px solid #fff;
     
-            width: 430px;
+            width: 350px;
             height: 412px;
             box-shadow:0  7px 30px #ccc;
         }
         .card-full2{
-            transform: translateX(-17px);
+           
             
             margin-top: -1rem;
             border:0.7px solid #fff;
-            width: 400px;
+            width: 350px;
             height:412px;
             border-radius: 8px;
             transition: all 0.2s ease-in-out;
@@ -2710,7 +2712,7 @@ footer {
         .card-content{
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
-            width:430px;
+            width:350px;
             height: 150px;
             display: flex;
             flex-direction: column;
@@ -2764,7 +2766,7 @@ footer {
     .card-content2{
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
-        width:430px;
+        width:350px;
         height: 157px;
         display: flex;
         flex-direction: column;
@@ -3128,6 +3130,7 @@ footer {
         font-size: 16px;
         margin-bottom:4px;
         transition: all 0.2s ease-in;
+        cursor: pointer;
     }
     
     }
